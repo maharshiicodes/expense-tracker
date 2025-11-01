@@ -1,16 +1,39 @@
-# React + Vite
+Expense Tracker
+A simple and clean web application built with React to help you keep track of your daily expenses. Add, edit, delete, and view your expenses in one place, with all your data saved locally in your browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+Add Expenses: Quickly add a new expense with a category and an amount.
 
-Currently, two official plugins are available:
+Edit Expenses: Click "Edit" to change the category or amount of any existing expense.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Delete Expenses: Remove unwanted expenses with a single click.
 
-## React Compiler
+Persistent Storage: All your expenses are saved in your browser's localStorage, so your data is still there when you close the tab.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive Design: Looks great on both desktop and mobile devices.
+Here's a great README template you can use for your Expense Tracker project. Just copy, paste, and fill in any missing details.
 
-## Expanding the ESLint configuration
+Expense Tracker
+A simple and clean web application built with React to help you keep track of your daily expenses. Add, edit, delete, and view your expenses in one place, with all your data saved locally in your browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+(Feel free to replace this link if you have your own screenshot)
+
+## Features
+Add Expenses: Quickly add a new expense with a category and an amount.
+
+Edit Expenses: Click "Edit" to change the category or amount of any existing expense.
+
+Delete Expenses: Remove unwanted expenses with a single click.
+
+Persistent Storage: All your expenses are saved in your browser's localStorage, so your data is still there when you close the tab.
+
+Responsive Design: Looks great on both desktop and mobile devices.
+
+## Tech Stack
+Frontend: React
+
+State Management: React Hooks (useReducer, useState, useEffect)
+
+Styling: Tailwind CSS
+
+Local Storage: Browser localStorage API
